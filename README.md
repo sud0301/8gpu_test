@@ -20,5 +20,10 @@ pip install numpy
 python train_full.py    --batch-size 40
 ```
 
+## Training on Cityscapes Dataset with 8 Jobs on 1 GPU
+```
+./train_8x1gpu.sh
+```
+
 Reduce batch-size, if GPU memory is not enough. 
 
